@@ -1,0 +1,57 @@
+$primary: #7AC443;
+$secondary: #A4D3EC;
+$white: #ffffff;
+$grey: #818285;
+$dark-grey: #454546;
+$light-grey: #d0d0d0;
+$dark-white: #F2F2F3;
+$black: #000000;
+$green: #AAD3A4;
+$red: #F29E9D;
+
+.primary {
+	color: $primary;
+}
+
+.secondary {
+	color: $secondary;
+}
+
+.white {
+	color: $white;
+}
+
+.black {
+	color: $black;
+}
+
+.grey {
+	color: $grey;
+}
+
+.red {
+	color: $red;
+}
+.light-grey {
+	color: $light-grey;
+}
+
+.dark-grey {
+	color: $dark-grey;
+}
+
+.bg-primary {
+	background: $primary;
+}
+
+.bg-dark-white {
+	background: $dark-white;
+}
+
+.bg-dark-grey {
+	background: $dark-grey;
+}
+
+.bg-white {
+	background: $white;
+}

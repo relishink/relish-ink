@@ -1,0 +1,97 @@
+.bg-faded {
+	background: transparent;
+}
+
+@media only screen and (max-width: 991px) {
+    .bg-faded {
+	background: $black;
+}
+}
+
+a.nav-link.active {
+	color: $white;
+	font-family: 'Ubuntu', sans-serif;
+	border-bottom: 1px solid $primary;
+	&:focus,
+	  &:hover {
+	    color: $white;
+	    border-bottom: 1px solid $primary;
+	    text-decoration: none;
+	    cursor: pointer;
+	    outline: none;
+	    box-shadow: none;
+	  }
+}
+
+li.nav-item {
+	padding: 15px 30px;
+}
+
+img.nav-splash {
+	margin-top: -20px;
+    margin-right: -136px;
+    margin-bottom: -420px;
+}
+
+@media only screen and (max-width: 991px) {
+    img.nav-splash {
+		display: none;
+	
+	}
+}
+
+a.nav-link {
+	color: $grey;
+	font-family: 'Ubuntu', sans-serif;
+	 font-size: 14px;
+	  text-transform: uppercase;
+		padding: 10px 25px;
+		&:focus,
+		  &:hover {
+		    color: $white;
+		    border-bottom: 1px solid $primary;
+		    text-decoration: none;
+		    cursor: pointer;
+		    outline: none;
+		    box-shadow: none;
+	  }
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+    color: $white;
+	    border-bottom: 1px solid $primary;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: $white;
+	    border-bottom: 1px solid $primary;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $grey;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: $white;
+    margin: 20px;
+    &:focus,
+	  &:hover {
+
+	    text-decoration: none;
+	    cursor: pointer;
+	    outline: none;
+	    box-shadow: none;
+	  }
+}
+
+
+span.mobile-menu {
+	color: $white;
+	padding: 5px 10px;
+}
+
+
+
+
+

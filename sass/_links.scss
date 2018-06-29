@@ -1,0 +1,60 @@
+a.white-link {
+  color: $white;
+  &:focus,
+  &:hover {
+    color: darken($white, 15%);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+
+
+a.green-link {
+  color: $primary;
+  font-size: 14px;
+  text-transform: uppercase;
+  &:focus,
+  &:hover {
+    color: darken($primary, 15%);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+
+
+a.footer-icon {
+  color: $grey;
+  font-size: 20px;
+  padding-left: 3px;
+  text-transform: uppercase;
+  &:focus,
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+a.grey-link {
+  color: $grey;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  &:focus,
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+
